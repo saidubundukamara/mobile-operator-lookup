@@ -1,4 +1,4 @@
-const lookupMobileOperator = require("./index");
+const lookupMobileOperator = require("mobile-operator-lookup");
 
 console.log(lookupMobileOperator("+23277123456")); // Africell Example
 console.log(lookupMobileOperator("+23231123456")); // Qcell Example

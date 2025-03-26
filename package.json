@@ -7,22 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Saidu Bundu-Kamara",
-  "keywords": [
-  "mobile",
-  "operator",
-  "telecom",
-  "carrier",
-  "lookup",
-  "phone",
-  "prefix",
-  "m-money",
-  "mobile-money",
-  "network",
-  "country-code",
-  "phone-validation",
-  "africa",
-  "sierra-leone"
-],
+  "keywords": ["mobile", "operator", "telecom", "carrier", "lookup", "phone", "prefix", "m-money", "mobile-money", "network", "country-code", "phone-validation", "africa", "sierra-leone"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saidubundukamara/mobile-operator-lookup.git"
+  },
   "license": "ISC",
   "dependencies": {
     "libphonenumber-js": "^1.12.6"

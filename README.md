@@ -26,7 +26,8 @@ console.log(lookupMobileOperator("+23277123456"));
     "company": "Africell",
     "m_money": "Afrimoney",
     "slug": "afrimoney",
-    "country_code": "+232"
+    "country_code": "+232",
+    "monime_code": "m17"
   }
 */
 ```
@@ -39,6 +40,7 @@ The function returns an object with the following fields:
 | mobile_money|Name of the mobile money service
 | slug|Slug version of the mobile money service
 |country_code| The country code of the number
+|monimee_code| Monime Unique identifier
 
 
 If the phone number is invalid or the operator is not found, it returns:
