@@ -29,7 +29,8 @@ function lookupMobileOperator(phoneNumber) {
       company: operator.company,
       mobile_money: operator.m_money,
       slug: operator.slug,
-      country_code: countryCode
+      country_code: countryCode,
+      monime_code: operator.monime_code
     };
   }
   

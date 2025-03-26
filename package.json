@@ -1,13 +1,13 @@
 {
   "name": "mobile-operator-lookup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight NPM package that identifies the telecom operator of a given mobile number, including company name, mobile money service, and country code, based on predefined prefixes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Saidu Bundu-Kamara",
-  "keywords": ["mobile", "operator", "telecom", "carrier", "lookup", "phone", "prefix", "m-money", "mobile-money", "network", "country-code", "phone-validation", "africa", "sierra-leone"],
+  "keywords": ["mobile", "operator", "telecom", "carrier", "lookup", "phone", "prefix", "m-money", "mobile-money", "network", "country-code", "phone-validation", "africa", "sierra-leone", "monime"],
   "repository": {
     "type": "git",
     "url": "https://github.com/saidubundukamara/mobile-operator-lookup.git"

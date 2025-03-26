@@ -40,7 +40,7 @@ The function returns an object with the following fields:
 | mobile_money|Name of the mobile money service
 | slug|Slug version of the mobile money service
 |country_code| The country code of the number
-|monimee_code| Monime Unique identifier
+|monime_code| Monime Unique identifier
 
 
 If the phone number is invalid or the operator is not found, it returns:
