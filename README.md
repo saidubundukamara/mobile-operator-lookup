@@ -1,8 +1,3 @@
----
-title: Mobile Operator Lookup
-
----
-
 # Mobile Operator Lookup
 
 A lightweight NPM package that identifies the telecom operator of a given mobile number, including company name, mobile money service, and country code, based on predefined prefixes.
