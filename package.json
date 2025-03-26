@@ -1,0 +1,30 @@
+{
+  "name": "mobile-operator-lookup",
+  "version": "1.0.0",
+  "description": "A lightweight NPM package that identifies the telecom operator of a given mobile number, including company name, mobile money service, and country code, based on predefined prefixes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saidu Bundu-Kamara",
+  "keywords": [
+  "mobile",
+  "operator",
+  "telecom",
+  "carrier",
+  "lookup",
+  "phone",
+  "prefix",
+  "m-money",
+  "mobile-money",
+  "network",
+  "country-code",
+  "phone-validation",
+  "africa",
+  "sierra-leone"
+],
+  "license": "ISC",
+  "dependencies": {
+    "libphonenumber-js": "^1.12.6"
+  }
+}
