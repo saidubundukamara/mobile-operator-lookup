@@ -1,13 +1,47 @@
 {
   "name": "mobile-operator-lookup",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A lightweight NPM package that identifies the telecom operator of a given mobile number, including company name, mobile money service, and country code, based on predefined prefixes.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "node test-folder/test.js",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "author": "Saidu Bundu-Kamara",
-  "keywords": ["mobile", "operator", "telecom", "carrier", "lookup", "phone", "prefix", "m-money", "mobile-money", "network", "country-code", "phone-validation", "africa", "sierra-leone", "monime"],
+  "keywords": [
+    "mobile",
+    "operator",
+    "telecom",
+    "carrier",
+    "lookup",
+    "phone",
+    "prefix",
+    "m-money",
+    "mobile-money",
+    "network",
+    "country-code",
+    "phone-validation",
+    "africa",
+    "sierra-leone",
+    "monime",
+    "salone"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/saidubundukamara/mobile-operator-lookup.git"
@@ -15,5 +49,10 @@
   "license": "ISC",
   "dependencies": {
     "libphonenumber-js": "^1.12.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
   }
 }
