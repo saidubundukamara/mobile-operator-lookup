@@ -112,3 +112,6 @@ import { isLookupSuccess, isLookupError } from 'mobile-operator-lookup';
 ## Contributing
 Contributions are welcome! Feel free to submit issues and pull requests.
 
+## Author
+Saidu Bundu-Kamara
+
