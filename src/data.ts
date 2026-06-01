@@ -10,7 +10,7 @@ export const telecomProviders: readonly Country[] = [
     country_code: "+232",
     operators: [
       { 
-        prefix: ["74", "75", "76", "78", "79"], 
+        prefix: ["72", "74", "75", "76", "78", "79"],
         company: "Orange", 
         m_money: "Orange Money", 
         slug: "orange-money", 

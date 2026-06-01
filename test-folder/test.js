@@ -14,6 +14,10 @@ console.log("Orange Example (+23278123456):");
 console.log(lookupMobileOperator("+23278123456"));
 console.log();
 
+console.log("Orange (new 72 prefix) Example (+23272123456):");
+console.log(lookupMobileOperator("+23272123456"));
+console.log();
+
 console.log("Invalid Number Example (+1234567890):");
 console.log(lookupMobileOperator("+1234567890"));
 console.log();
