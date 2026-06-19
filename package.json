@@ -1,6 +1,6 @@
 {
   "name": "mobile-operator-lookup",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A lightweight NPM package that identifies the telecom operator of a given mobile number, including company name, mobile money service, and country code, based on predefined prefixes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
